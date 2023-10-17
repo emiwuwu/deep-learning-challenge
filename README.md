@@ -51,5 +51,5 @@ The Alphabet Soup Deep Learning Model project aims to predict the success of cha
 
 ## Analysis Report
 
--For a comprehensive analysis of deep learning models, please refer to the [Alphabet Soup Deep Learning Model Analysis Report](Deep Learning Challenge/ Analysis_Report.md).
+- For a comprehensive analysis of deep learning models, please refer to the [Alphabet Soup Deep Learning Model Analysis Report](Deep Learning Challenge/ Analysis_Report.md).
 
