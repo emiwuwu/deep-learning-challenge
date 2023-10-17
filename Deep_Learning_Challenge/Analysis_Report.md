@@ -33,8 +33,10 @@ The purpose of this analysis is to develop a deep learning model using a neural 
 #### Steps to Improve Model Performance:
 
 To improve model performance, we took the following steps:
-- Hyperparameter Tuning: I used Keras Tuner to optimize hyperparameters, including the number of neurons, layers, and activation functions, as well as the learning rate. We ran multiple trials to find the best combination.
+- Hyperparameter Tuning: I used Keras Tuner to optimize hyperparameters, including the number of neurons, layers, and activation functions, as well as the learning rate. I ran multiple trials to find the best combination.
 - Early Stopping: I implemented early stopping with a patience of 3 to avoid overfitting and achieve better generalization of the model.
+- Optimizer Selection: I also explored different optimizers to improve model training. The choice of optimizer can significantly impact the convergence and performance of the neural network.
+- Reducing Categories: I categorized the "APPLICATION_TYPE" feature by setting a higher cutoff value to reduce the number of categories. By aggregating less frequent categories into a single "Other" category, we simplified the feature and reduced its dimensionality. This can make the model more efficient and improve its ability to capture relevant patterns.
 
 ### Summary:
 
