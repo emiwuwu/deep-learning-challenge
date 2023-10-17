@@ -22,8 +22,9 @@ The purpose of this analysis is to develop a deep learning model using a neural 
 
 #### Model Configuration:
 
-- We designed a neural network model with two hidden layers, using ReLU (Rectified Linear Unit) as the activation function. The number of neurons in the hidden layers, as well as the learning rate, was selected using a hyperparameter tuning process.
-- The neural network model includes an input layer, two hidden layers, and an output layer with a sigmoid activation function. This architecture was chosen to capture the complex relationships in the data.
+-  `AlphabetSoupCharity.h5` is a neural network model with two hidden layers. The first hidden layer consists of 80 neurons with a sigmoid activation function, and the second hidden layer contains 30 neurons with the same sigmoid activation. The model was trained for 100 epochs, and the output layer has one neuron with a sigmoid activation.
+
+- `AlphabetSoupCharity_Optimization.h5` is a neural network model with three hidden layers, each using the ReLU (Rectified Linear Unit) activation function. The number of neurons in these hidden layers, as well as the learning rate, were fine-tuned through a hyperparameter tuning process. This neural network model comprises an input layer, three hidden layers, and an output layer featuring a sigmoid activation function. The model was trained for 80 epochs. The chosen architecture was designed to effectively capture and model the complex relationships within the dataset.
 
 #### Target Model Performance:
 
@@ -32,13 +33,13 @@ The purpose of this analysis is to develop a deep learning model using a neural 
 #### Steps to Improve Model Performance:
 
 To improve model performance, we took the following steps:
-- Hyperparameter Tuning: We used Keras Tuner to optimize hyperparameters, including the number of neurons, layers, and activation functions, as well as the learning rate. We ran multiple trials to find the best combination.
-- Early Stopping: We implemented early stopping with a patience of 3 to avoid overfitting and achieve better generalization of the model.
+- Hyperparameter Tuning: I used Keras Tuner to optimize hyperparameters, including the number of neurons, layers, and activation functions, as well as the learning rate. We ran multiple trials to find the best combination.
+- Early Stopping: I implemented early stopping with a patience of 3 to avoid overfitting and achieve better generalization of the model.
 
 ### Summary:
 
-The deep learning model for Alphabet Soup was designed to predict the success of charitable organizations' funding allocation. Although the initial model did not meet the target accuracy of 75%, we made significant improvements through hyperparameter tuning and early stopping.
+The deep learning model for Alphabet Soup was designed to predict the success of charitable organizations' funding allocation. Although the initial model did not meet the target accuracy of 75%, I made sightly improvements through hyperparameter tuning and early stopping.
 
-Despite these enhancements, the model's performance may still fall short of the desired accuracy due to the complexity and uniqueness of nonprofit organization data. As an alternative recommendation, we suggest exploring other machine learning models, such as Random Forest or XGBoost. These models have shown effectiveness in classification tasks and may perform better with this specific dataset.
+Despite these enhancements, the model's performance may still fall short of the desired accuracy due to the complexity and uniqueness of nonprofit organization data. As an alternative recommendation, I suggest exploring other machine learning models, such as Random Forest or XGBoost. These models have shown effectiveness in classification tasks and may perform better with this specific dataset.
 
 In conclusion, the deep learning model has the potential to provide valuable insights for Alphabet Soup. However, the recommendation to explore alternative models should be considered to improve the accuracy and reliability of the predictions.

@@ -19,9 +19,19 @@ The Alphabet Soup Deep Learning Model project aims to predict the success of cha
 
 ## Model Architecture
 
-- A deep neural network model is used, consisting of an input layer, two hidden layers, and an output layer.
-- ReLU (Rectified Linear Unit) is chosen as the activation function for the hidden layers.
-- The model aims to capture complex relationships within the data.
+**AlphabetSoupCharity.h5:**
+
+- A deep neural network model, denoted as `AlphabetSoupCharity.h5`, is utilized.
+- It includes an input layer, two hidden layers, and an output layer.
+- The activation function employed in the hidden layers is `sigmoid`.
+- `AlphabetSoupCharity.h5` is designed to capture the underlying patterns within the data.
+
+**AlphabetSoupCharity_Optimization.h5:**
+
+- A deep neural network model, represented as `AlphabetSoupCharity_Optimization.h5`, is employed.
+- This model features an input layer, three hidden layers, and an output layer.
+- The activation function chosen for the hidden layers is `ReLU` (Rectified Linear Unit).
+- The primary objective of `AlphabetSoupCharity_Optimization.h5` is to capture and model the complex relationships present in the dataset.
 
 ## Hyperparameter Tuning
 
@@ -43,11 +53,6 @@ The Alphabet Soup Deep Learning Model project aims to predict the success of cha
 
 - The model can be used to predict the success of charitable organizations' funding allocation.
 - It can be incorporated into applications or workflows that require such predictions.
-
-## Models
-
-- AlphabetSoupCharity.h5
-- AlphabetSoupCharity_Optimization.h5
 
 ## Analysis Report
 
