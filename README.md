@@ -7,15 +7,15 @@ The Alphabet Soup Deep Learning Model project aims to predict the success of cha
 
 ## Project Description
 
-- The project employs deep learning and neural network techniques to build a classification model.
-- The primary goal is to predict whether the funding provided to charitable organizations is being used effectively.
-- Data preprocessing, model compilation, and hyperparameter tuning are key components of the project.
+- This project leverages deep learning and neural network techniques to construct a robust classification model.
+- The primary objective is to forecast the effective utilization of funds allocated to charitable organizations.
+- The project entails vital elements including data preprocessing, model compilation, feature engineering, and hyperparameter tuning to optimize predictive performance.
 
 ## Data Preprocessing
 
 - Data includes features such as "APPLICATION_TYPE," "AFFILIATION," "CLASSIFICATION," and others.
 - The target variable is "IS_SUCCESSFUL," indicating successful (1) or unsuccessful (0) funding.
-- Unnecessary variables like "EIN" and "NAME" have been removed to streamline the dataset.
+- Unnecessary variables like "EIN" have been removed to streamline the dataset.
 
 ## Model Architecture
 
@@ -45,9 +45,9 @@ The Alphabet Soup Deep Learning Model project aims to predict the success of cha
 
 ## Results
 
-- The target model performance is to achieve an accuracy of 75% in classifying successful and unsuccessful funding.
-- Model improvements have been made through hyperparameter tuning and early stopping.
-- Despite these enhancements, the model's performance may still fall short of the desired accuracy.
+- The target model performance was set to attain a classification accuracy of 75% for distinguishing between successful and unsuccessful funding allocation.
+- Model enhancements were introduced through a combination of hyperparameter tuning, early stopping, and feature engineering.
+- The initial model `AlphabetSoupCharity.h5` fell short of expectations, while the improved model `AlphabetSoupCharity_Optimization.h5` succeeded in achieving the desired accuracy threshold.
 
 ## Usage
 
@@ -57,6 +57,3 @@ The Alphabet Soup Deep Learning Model project aims to predict the success of cha
 ## Analysis Report
 
 - For a comprehensive analysis of deep learning models, please refer to the [Alphabet Soup Deep Learning Model Analysis Report](Deep_Learning_Challenge/Analysis_Report.md)
-
-
-
